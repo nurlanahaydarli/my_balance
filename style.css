@@ -1,0 +1,31 @@
+.header{
+    background-color: rosybrown;
+    padding: 40px 0;
+    position: relative;
+}
+.alert_box{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.balance_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.balance_box img{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+}
+.show_balance{
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    align-items: center;
+    color: #fff;
+}
+.show_balance h4{
+    margin-bottom: 0;
+    font-size: 30px;
+}
