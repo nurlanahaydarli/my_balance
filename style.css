@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 .balance_box img{
     width: 300px;
@@ -28,4 +30,7 @@
 .show_balance h4{
     margin-bottom: 0;
     font-size: 30px;
+}
+.table{
+    min-width: 600px;
 }
